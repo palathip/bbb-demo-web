@@ -1,0 +1,15 @@
+{
+    "singleQuote": true,
+    "tabWidth": 4,
+    "useTabs": false,
+    "arrowParens": "avoid",
+    "semi": false,
+    "overrides": [
+        {
+            "files": ["**/*.ts"],
+            "options": {
+                "singleQuote": true
+            }
+        }
+    ]
+}

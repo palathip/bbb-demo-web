@@ -15,6 +15,11 @@ app.get('/', (req, res) => {
           "invoice_no": "IPX-648",
           "amount": 300000.00,
           "created_at" : "2022-06-15"
+        },
+        {
+          "invoice_no": "IPZ-871",
+          "amount": 350000.00,
+          "created_at" : "2022-06-15"
         }
       ]
   res.send(response)
